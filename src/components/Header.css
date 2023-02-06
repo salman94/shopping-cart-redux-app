@@ -12,3 +12,12 @@
   font-family: monospace;
   font-size: 30px;
 }
+.logOutBtn {
+  width: 200px;
+  background: red;
+  border: none;
+  cursor: pointer;
+}
+.logOutBtn:hover {
+  background: orangered;
+}
