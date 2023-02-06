@@ -18,7 +18,7 @@ export const fetchCartData = () => {
 }
 
 export const sendCartData = (cart) => {
-    return (dispatch) => {
+    return async (dispatch) => {
         dispatch(uiActions.showNotification({
             open: true,
             type: 'warning',
